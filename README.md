@@ -31,3 +31,5 @@ Este proyecto forma parte de una colaboración para el sitio web **Music Coders*
 
 Este proyecto de aprendizaje es un esfuerzo conjunto de la comunidad de **Music Coders** , alumnos-Factoría-F5.
 07/2024
+
+![Piano-sonoro](piano-sonoro-readme.png)
