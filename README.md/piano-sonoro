@@ -1,0 +1,59 @@
+# Proyecto de Piano Sonoro ## Descripción Este proyecto es un diseño inicial de
+un piano sonoro, creado como parte de un proceso de aprendizaje. El objetivo
+principal del proyecto es implementar un piano funcional utilizando tecnologías
+web, permitiendo a los usuarios interactuar con las teclas tanto visualmente
+como auditivamente. ![primera versión](README.md/piano-sonoro) ##
+Características del Proyecto - **Interacción**: El piano permite la interacción
+a través del mouse y el teclado de la computadora. - **Oscilador**: Utiliza un
+oscilador de tipo `square` para generar el sonido de las notas. - **Duración del
+Sonido**: Cada nota tiene una duración de 0.2 segundos. - **Frecuencia de las
+Notas**: El sonido se genera mediante frecuencias específicas para cada nota. ##
+Tecnologías Utilizadas - **HTML**: Estructura del piano. - **CSS**: Estilización
+del piano para una presentación visual clara y atractiva. - **JavaScript**:
+Lógica para la generación del sonido y la interacción del usuario. ##
+Funcionamiento El piano está compuesto por teclas blancas y negras,
+representando las diferentes notas musicales. Al presionar una tecla, ya sea con
+el mouse o el teclado de la computadora, se genera un sonido correspondiente a
+la nota seleccionada. Cada sonido es producido por un oscilador de tipo `square`
+en la API de Audio de Web, con una frecuencia específica que corresponde a la
+nota musical. El oscilador está configurado para reproducir el sonido durante
+0.2 segundos. ## Código Principal ### HTML ```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano Responsive</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="piano">
+      <!-- Teclas del Piano -->
+      <div class="key white-key" data-note="C"></div>
+      <div class="key black-key" data-note="C#"></div>
+      <div class="key white-key" data-note="D"></div>
+      <div class="key black-key" data-note="D#"></div>
+      <div class="key white-key" data-note="E"></div>
+      <div class="key white-key" data-note="F"></div>
+      <div class="key black-key" data-note="F#"></div>
+      <div class="key white-key" data-note="G"></div>
+      <div class="key black-key" data-note="G#"></div>
+      <div class="key white-key" data-note="A"></div>
+      <div class="key black-key" data-note="A#"></div>
+      <div class="key white-key" data-note="B"></div>
+      <div class="key white-key" data-note="C2"></div>
+      <div class="key black-key" data-note="C#2"></div>
+      <div class="key white-key" data-note="D2"></div>
+      <div class="key black-key" data-note="D#2"></div>
+      <div class="key white-key" data-note="E2"></div>
+      <div class="key white-key" data-note="F2"></div>
+      <div class="key black-key" data-note="F#2"></div>
+      <div class="key white-key" data-note="G2"></div>
+      <div class="key black-key" data-note="G#2"></div>
+      <div class="key white-key" data-note="A2"></div>
+      <div class="key black-key" data-note="A#2"></div>
+      <div class="key white-key" data-note="B2"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
