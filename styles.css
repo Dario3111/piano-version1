@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333;
+}
+
+#piano {
+  display: flex;
+  position: relative;
+}
+
+.white-key {
+  width: 40px;
+  height: 160px;
+  background-color: white;
+  border: 1px solid black;
+  position: relative;
+  z-index: 1;
+}
+
+.black-key {
+  width: 25px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  margin-left: -12.5px;
+  z-index: 2;
+}
+
+.white-key:nth-child(even) {
+  margin-right: -1px;
+}
+
+.white-key[data-note="C"] {
+  background-color: white;
+}
+.white-key[data-note="C2"] {
+  background-color: white;
+}
+.white-key[data-note="D"] {
+  background-color: white;
+}
+.white-key[data-note="D2"] {
+  background-color: white;
+}
+.white-key[data-note="E"] {
+  background-color: white;
+}
+.white-key[data-note="E2"] {
+  background-color: white;
+}
+.white-key[data-note="F"] {
+  background-color: white;
+}
+.white-key[data-note="F2"] {
+  background-color: white;
+}
+.white-key[data-note="G"] {
+  background-color: white;
+}
+.white-key[data-note="G2"] {
+  background-color: white;
+}
+.white-key[data-note="A"] {
+  background-color: white;
+}
+.white-key[data-note="A2"] {
+  background-color: white;
+}
+.white-key[data-note="B"] {
+  background-color: white;
+}
+.white-key[data-note="B2"] {
+  background-color: white;
+}
+.white-key[data-note="C3"] {
+  background-color: white;
+}
+
+.black-key[data-note="C#"] {
+  left: 30px;
+}
+.black-key[data-note="D#"] {
+  left: 70px;
+}
+.black-key[data-note="F#"] {
+  left: 130px;
+}
+.black-key[data-note="G#"] {
+  left: 170px;
+}
+.black-key[data-note="A#"] {
+  left: 210px;
+}
+.black-key[data-note="C#2"] {
+  left: 370px;
+}
+.black-key[data-note="D#2"] {
+  left: 410px;
+}
+.black-key[data-note="F#2"] {
+  left: 470px;
+}
+.black-key[data-note="G#2"] {
+  left: 510px;
+}
+.black-key[data-note="A#2"] {
+  left: 550px;
+}
