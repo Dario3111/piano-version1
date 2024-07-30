@@ -1,8 +1,8 @@
-# Proyecto de Piano Sonoro
+# Boceto de Piano Sonoro
 
 ## Descripción
 
-Este proyecto es un diseño inicial de un piano sonoro, desarrollado como parte de una colaboración para el sitio web de **Music Coders**, una escuela de música en línea. El objetivo principal es proporcionar una herramienta interactiva para aprender sobre música y experimentar con sonidos, utilizando tecnologías web modernas.
+Este proyecto es un pre-diseño de un piano sonoro, desarrollado como parte de una colaboración para el sitio web de **Music Coders**, una escuela de música en línea. El objetivo principal es proporcionar una herramienta interactiva para aprender sobre música y experimentar con sonidos, utilizando tecnologías web modernas.
 
 ## Características del Proyecto
 
